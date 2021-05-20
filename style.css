@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(image/image1.jpg);
+  background-size: cover;
+}
+
+.loading_container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/image1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.loading {
+  width: 40px;
+  height: 40px;
+  border: 4px solid;
+  color: blue;
+  border-radius: 100%;
+  border-top-color: transparent;
+  animation: loader 1.5s linear infinite;
+}
+
+@keyframes loader{
+  25% {
+      color: rgb(255, 0, 0);
+  }
+  50% {
+      color: rgb(0, 255, 0);
+  }
+  
+  75% {
+    color: white;
+  }
+  
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.character_container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/image1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character_container .fa-music {
+  font-size: 100px;
+  color: white;
+  animation: title 1.5s linear infinite;
+}
+
+@keyframes title {
+  to {
+    opacity: 0.1;
+  }
+
+  from {
+    opacity: 1;
+  }
+}
+
+.character_container input {
+  position: absolute;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 500;
+  bottom: 25%;
+  width: 14rem;
+  height: 4rem;
+  border-radius: 12px;
+  border: 0;
+  background-color: hotpink;
+}
+
+input:hover {
+  background-color: rgb(206, 68, 137);
+}

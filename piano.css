@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, hotpink, blue);
+}
+
+.back {
+  display: block;
+  width: 100%;
+  height: 100%;
+  float: right;
+  text-align: right;
+  position: absolute;
+}
+
+.back input {
+  border-radius: 5px;
+}
+
+header {
+  height: 85%;
+  display: inline-block;
+  position: absolute;
+}
+
+h1 {
+  background-color: white;
+}
+
+.piano {
+  display: flex;
+  position: relative;
+}
+
+.white-key {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 110px;
+  height: 395px;
+  background-color: #FFF;
+  border: 3px solid black;
+  border-radius: 3px 3px 10px 10px;
+  margin-left: -5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.white-key.active {
+  background-color: #C0C0C0;
+}
+
+.black-key {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  width: 72px;
+  height: 240px;
+  background-image: linear-gradient(#000000, #303030);
+  border: 3px solid black;
+  border-radius: 0 0 5px 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.black-key.active {
+  background-image: linear-gradient(#000000, #101010);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: skyblue;
+  margin-bottom: 12px;
+  border-radius: 100%;
+}
+
+.Db4-key {
+  left: 65px;
+}
+
+.Eb4-key {
+  left: 170px;
+}
+
+.Gb4-key {
+  left: 380px;
+}
+
+.Ab4-key {
+  left: 485px;
+}
+
+.Bb4-key {
+  left: 590px;
+}
+
+.Db5-key {
+  left: 800px;
+}
+
+.Eb5-key {
+  left: 905px;
+}
+
+input {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Web Synthesizer</title>
+</head>
+<body>
+  <div class="loading_container">
+    <div class="loading"></div>
+  </div>
+  <div class="character_container">
+    <i class="fas fa-music"> Web Synthesizer</i>
+    <input type="button" value="START" onclick="location.href='menuSelect.html'">
+  </div>
+</body>
+<script>
+  $(window).on("load",function() {
+  $(".loading_container").each(function(){
+    $(this)
+    .delay(2000)
+  })
+  $(".loading_container").fadeOut("fast");
+});
+</script>
+<script src="https://kit.fontawesome.com/76e1965d86.js" crossorigin="anonymous"></script>
+</html>
