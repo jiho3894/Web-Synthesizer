@@ -25,14 +25,13 @@ body {
   border-radius: 5px;
 }
 
-header {
-  height: 85%;
-  display: inline-block;
-  position: absolute;
-}
-
-h1 {
-  background-color: white;
+input {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: skyblue;
+  border: 1px solid skyblue;
 }
 
 .piano {
@@ -116,11 +115,3 @@ h1 {
   left: 905px;
 }
 
-input {
-  width: 5rem;
-  height: 5rem;
-  cursor: pointer;
-  border-radius: 100%;
-  background-color: skyblue;
-  border: 1px solid skyblue;
-}

@@ -1,17 +1,269 @@
 html {
-  position: relative;
   margin: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: black;
-}
-
-body {
-  border: 0;
-  padding: 0; 
-  background-image: url('image/image2.png');
+  width: 1920px;
+  height: 967px;
+  background-image: url('image/image3.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
+
+body {
+  margin: 0;
+  background-image: url('image/image2.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.back {
+  display: block;
+  right: 0;
+  text-align: right;
+  position: absolute;
+}
+
+.back input {
+  border-radius: 5px;
+}
+
+
+input {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+}
+
+.box {
+  font-size: 25px;
+  font-weight: 600;
+  color: red;
+}
+
+button.drumA.active {
+  background-color: skyblue;
+  animation: burr .1s infinite;
+}
+
+@keyframes burr {
+  from {
+    left:423px;
+  }
+  to{
+    left:425px;
+  }
+}
+
+.drum .drumA {
+  position: absolute;
+  left: 425px;
+  top: 458px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+button.drumW.active {
+  background-color: skyblue;
+  animation: burr2 .1s infinite;
+}
+
+@keyframes burr2 {
+  from {
+    left:587px;
+  }
+  to{
+    left:589px;
+  }
+}
+
+.drum .drumW {
+  position: absolute;
+  left: 589px;
+  top: 204px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+button.drumS.active {
+  background-color: skyblue;
+  animation: burr3 .1s infinite;
+}
+
+@keyframes burr3 {
+  from {
+    left:661px;
+  }
+  to{
+    left:663px;
+  }
+}
+
+.drum .drumS {
+  position: absolute;
+  left: 663px;
+  top: 528px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+button.drumE.active {
+  background-color: skyblue;
+  animation: burr4 .1s infinite;
+}
+
+@keyframes burr4 {
+  from {
+    left:788px;
+  }
+  to{
+    left:790px;
+  }
+}
+
+.drum .drumE {
+  position: absolute;
+  left: 790px;
+  top: 250px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+button.drumF.active {
+  background-color: skyblue;
+  animation: burr5 .1s infinite;
+}
+
+@keyframes burr5 {
+  from {
+    left:928px;
+  }
+  to{
+    left:930px;
+  }
+}
+
+.drum .drumF {
+  position: absolute;
+  left: 930px;
+  top: 445px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.drum .drumG {
+  position: absolute;
+  left: 933px;
+  top: 760px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+button.drumU.active {
+  background-color: skyblue;
+  animation: burr6 .1s infinite;
+}
+
+@keyframes burr6 {
+  from {
+    left:1073px;
+  }
+  to{
+    left:1075px;
+  }
+}
+
+.drum .drumU {
+  position: absolute;
+  left: 1075px;
+  top: 255px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+button.drumK.active {
+  background-color: skyblue;
+  animation: burr7 .1s infinite;
+}
+
+@keyframes burr7 {
+  from {
+    left:1233px;
+  }
+  to{
+    left:1235px;
+  }
+}
+
+.drum .drumK {
+  position: absolute;
+  left: 1235px;
+  top: 510px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+button.drumO.active {
+  background-color: skyblue;
+  animation: burr8 .1s infinite;
+}
+
+@keyframes burr8 {
+  from {
+    left:1353px;
+  }
+  to{
+    left:1355px;
+  }
+}
+
+.drum .drumO {
+  position: absolute;
+  left: 1355px;
+  top: 240px;
+  border-radius: 100%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+
+
+
 

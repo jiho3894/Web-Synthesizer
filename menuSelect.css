@@ -20,13 +20,23 @@ a {
   color: white;
   font-size: 30px;
   font-weight: 600;
-  background-color: skyblue;
   border-radius: 12px;
-  width: 150px;
-  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a:nth-child(1) {
+  background-image: url("image/Drum.jpg");
+  width: 460px;
+  height: 460px;
+  background-position: center;
+}
+
+a:nth-child(2) {
+  background-image: url("image/piano.jpg");
+  width: 510px;
+  height: 510px;
 }
 
 a:hover {

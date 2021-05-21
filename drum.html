@@ -4,10 +4,55 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="drum.css">
   <title>Drum</title>
 </head>
 <body>
-
+  <div class="back">
+    <a href="menuSelect.html">
+      <input type="button" value="backBtn">
+    </a>
+  </div>
+  <input class="exImg" type="button" value="사용방법">
+  <div class="drum">
+    <button class="drumA">
+      <div class="box">A</div>
+    </button>
+    <button class="drumW">
+      <div class="box">W</div>
+    </button>
+    <button class="drumS">
+      <div class="box">S</div>
+    </button>
+    <button class="drumE">
+      <div class="box">E</div>
+    </button>
+    <button class="drumF">
+      <div class="box">F</div>
+    </button>
+    <button class="drumG">
+      <div class="box">F</div>
+    </button>
+    <button class="drumU">
+      <div class="box">U</div>
+    </button>
+    <button class="drumK">
+      <div class="box">K</div>
+    </button>
+    <button class="drumO">
+      <div class="box">O</div>
+  </div>
+  <script src="drum.js"></script>
+  <script>
+    $(".exImg").on("click",function(e) {
+      opacityRemove(e.target);
+    });
+    function opacityRemove(body){
+      $("body").css("opacity","0");
+      delay(1000);
+    }
+    $("body").css("opacity","1");
+  </script>
 </body>
 </html>

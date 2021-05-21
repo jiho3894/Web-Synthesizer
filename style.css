@@ -52,14 +52,17 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 
-.character_container .fa-music {
-  font-size: 100px;
+.character_container span {
+  font-size: 200px;
   color: white;
-  animation: title 1.5s linear infinite;
+  animation: title 3s linear infinite;
+  font-family: 'Niconne', cursive;
+  font-weight: 500;
 }
 
 @keyframes title {
@@ -73,7 +76,6 @@ body {
 }
 
 .character_container input {
-  position: absolute;
   cursor: pointer;
   font-size: 25px;
   font-weight: 500;
