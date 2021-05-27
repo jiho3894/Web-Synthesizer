@@ -12,7 +12,10 @@
 </head>
 <body>
   <div class="loading_container">
-    <i class="fas fa-music"></i>
+    <i class="fas fa-music">
+      <span> 악기를 불러오고 있습니다...</span>
+      <i class="fas fa-music"></i>
+    </i>
   </div>
   <div class="character_container">
     <span>Web Synthesizer</span>
@@ -23,7 +26,7 @@
   $(window).on("load",function() {
   $(".loading_container").each(function(){
     $(this)
-    .delay(3000)
+    .delay(5000)
   })
   $(".loading_container").fadeOut("fast");
 });

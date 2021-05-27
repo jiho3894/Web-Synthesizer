@@ -2,7 +2,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
-  background-image: url(image/image1.jpg);
+  background-image: url(image/main_bg.jpg);
   background-size: cover;
 }
 
@@ -13,6 +13,15 @@ body {
   width: 100%;
   height: 100%;
   justify-content: space-around;
+}
+
+.container_drum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  width: 510px;
+  height: 510px;
 }
 
 a {
@@ -39,6 +48,10 @@ a:nth-child(2) {
   height: 510px;
 }
 
-a:hover {
-  background-color: rgb(81, 162, 194);
+.container a:hover {
+  background-color: #15e38a;
+}
+
+.container_drum:hover {
+  background-color: #15e38a;
 }

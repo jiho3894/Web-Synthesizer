@@ -10,11 +10,13 @@
 </head>
 <body>
   <div class="back">
-    <a href="menuSelect.html">
-      <input type="button" value="backBtn">
-    </a>
+    <input class="input1" type="button" value="사용방법">
+    <div class="container">
+      <div class="tutorial">
+      </div>
+    </div>
+    <input class="input2" type="button" value="backBtn" onclick="location.href='menuSelect.html'">
   </div>
-  <input class="exImg" type="button" value="사용방법">
   <div class="drum">
     <button class="drumA">
       <div class="box">A</div>
@@ -41,15 +43,5 @@
       <div class="box">O</div>
   </div>
   <script src="drum.js"></script>
-  <script>
-    $(".exImg").on("click",function(e) {
-      opacityRemove(e.target);
-    });
-    function opacityRemove(body){
-      $("body").css("opacity","0");
-      delay(1000);
-    }
-    $("body").css("opacity","1");
-  </script>
 </body>
 </html>
