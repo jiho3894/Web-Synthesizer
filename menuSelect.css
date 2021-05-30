@@ -64,7 +64,7 @@ a:nth-child(2) {
 
 /* 모바일 전용 */
 
-@media all and (min-width:480px) and (max-width:800px) {
+@media all and (min-width:300px) and (max-width:800px) {
   .container_drum {
     display: flex;
     justify-content: center;
