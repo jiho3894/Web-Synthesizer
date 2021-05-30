@@ -56,6 +56,8 @@ a:nth-child(2) {
   background-color: #15e38a;
 }
 
+/* 모바일  경고창 */
+
 @media all and (orientation : Portrait) {
   html {
     display: none;
@@ -64,27 +66,28 @@ a:nth-child(2) {
 
 /* 모바일 전용 */
 
-@media all and (min-width:300px) and (max-width:800px) {
+@media all and (max-width:768px) {
   .container_drum {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   
   a:nth-child(1) {
     background-image: url("image/Drum.jpg");
-    width: 90px;
-    height: 90px;
+    width: 190px;
+    height: 190px;
     background-size: cover;
   }
   
   a:nth-child(2) {
     background-image: url("image/piano.jpg");
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-size: cover;
   }
 }
+

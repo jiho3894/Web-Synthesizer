@@ -127,3 +127,16 @@ input:hover{
   left: 905px;
 }
 
+@media all and (orientation : Portrait) {
+  html {
+    display: none;
+  }
+}
+
+@media all and (max-width:800px) {
+  .input {
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+  }
+}
