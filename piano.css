@@ -136,7 +136,7 @@ input:hover{
 @media all and (max-width: 900px) {
   .input {
     height: 35px;
-    width: 80px;
+    width: 200px;
     font-size: 15px;
   }
 }
