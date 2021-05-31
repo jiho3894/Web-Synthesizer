@@ -138,3 +138,24 @@ i {
 .neon-button:focus::after {
   opacity: 1;
 }
+
+
+@media all and (orientation : Portrait) {
+  html {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .character_container span {
+    font-size: 100px;
+  }
+
+  .neon-button { 
+    font-size: 2rem;
+  }
+
+  i {
+    font-size: 30px;
+  }
+}
