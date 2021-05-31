@@ -140,13 +140,13 @@ i {
 }
 
 
-@media screen and (orientation : Portrait) {
+@media all and (orientation : Portrait) {
   html {
     display: none;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .character_container span {
     font-size: 100px;
   }
