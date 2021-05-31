@@ -307,7 +307,7 @@ button.drumO.active {
 @media all and (max-width: 900px) {
   html {
     width: 600px;
-    height: 380px;
+    height: 300px;
   }
   
   .input1, .input2 {
