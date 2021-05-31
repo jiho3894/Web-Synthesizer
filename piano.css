@@ -133,7 +133,7 @@ input:hover{
   }
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 900px) {
   .input {
     height: 35px;
     width: 80px;

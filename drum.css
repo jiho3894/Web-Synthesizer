@@ -304,7 +304,7 @@ button.drumO.active {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 900px) {
   html {
     width: 600px;
     height: 380px;

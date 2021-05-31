@@ -58,7 +58,7 @@ a:nth-child(2) {
 
 /* 모바일  경고창 */
 
-@media screen and (orientation : Portrait) {
+@media all and (orientation : Portrait) {
   html {
     display: none;
   }
@@ -66,7 +66,7 @@ a:nth-child(2) {
 
 /* 모바일 전용 */
 
-@media screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
   .container_drum {
     display: flex;
     justify-content: center;
