@@ -146,7 +146,7 @@ i {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
   .character_container span {
     font-size: 100px;
   }
