@@ -34,12 +34,17 @@
 
 # 시작화면 <a id="3">
 <img src="https://user-images.githubusercontent.com/79081800/120317626-d7f9c080-c319-11eb-8176-919b66a280c1.jpg">
+  
 # 선택화면 <a id="4">
 <img src="https://user-images.githubusercontent.com/79081800/120317629-d8925700-c319-11eb-850b-0875f5038e53.jpg">
+  
 # 드럼 <a id="5">
 <img src="https://user-images.githubusercontent.com/79081800/120317634-d92aed80-c319-11eb-894a-9ca8fe6b9ddd.jpg">
+  
 # 드럼 (사용방법) <a id="6">
 <img src="https://user-images.githubusercontent.com/79081800/120317635-d9c38400-c319-11eb-9af8-b7d3a08d849e.jpg">
+  
 # 피아노 <a id="7">
 <img src="https://user-images.githubusercontent.com/79081800/120317640-da5c1a80-c319-11eb-817a-942d80471888.jpg">
+  
     
