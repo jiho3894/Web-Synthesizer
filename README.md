@@ -13,8 +13,8 @@
 # 바로가기
 - 웹 페이지 https://jiho3894.github.io/Web-Synthesizer/piano/
 - [웹사이트 시작화면](#3)
-- [Flasl로 ](#8)
 - [이용시 주의사항](#9)
+- [Flask로 접근하기](#8)
 - [선택화면](#4)
 - [드럼](#5)
 - [드럼 (사용방법)](#6)
@@ -113,4 +113,13 @@ $(window).on("load",function() {
   
 # Flask로 접근하기 <a id="8">
   
+<img src="https://user-images.githubusercontent.com/79081800/120763340-12e63900-c552-11eb-9859-d5dcb62efaff.jpg">
+<img src="https://user-images.githubusercontent.com/79081800/120763341-137ecf80-c552-11eb-96cd-9859b7448d0f.jpg">
+
+```python
+if __name__ == '__main__': 
+    app.run(host='0.0.0.0', debug=False)
+```
+  
+#### flask를 이용해 사이트 접근 206, 304번이 나오면 정상적으로 작동하고있다는 뜻
 
