@@ -11,7 +11,7 @@
   - **신디사이저나 피아노 드럼**에 관심이 있는 사람들을 위해 실제로 입문하기 이전에 도움을 주기 위함
 
 # 바로가기
-- 웹 페이지 https://jiho3894.github.io/Web-Synthesizer/piano/
+- **웹 페이지 https://jiho3894.github.io/Web-Synthesizer/piano/ **
 - [이용시 주의사항](#9)
 - [웹사이트 시작화면](#3)
 - [Flask로 접근하기](#8)
