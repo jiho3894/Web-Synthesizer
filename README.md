@@ -12,8 +12,8 @@
 
 # 바로가기
 - 웹 페이지 https://jiho3894.github.io/Web-Synthesizer/piano/
-- [웹사이트 시작화면](#3)
 - [이용시 주의사항](#9)
+- [웹사이트 시작화면](#3)
 - [Flask로 접근하기](#8)
 - [선택화면](#4)
 - [드럼](#5)
@@ -31,6 +31,19 @@
 - CSS3
 - JavaScript (ES6)
 - Python Flask
+  
+# 이용시 주의 사항 <a id="9">
+<img src="https://user-images.githubusercontent.com/79081800/120762325-1a591280-c551-11eb-82bb-bf7c5f978c44.jpg">
+
+```css
+@media all and (orientation : Portrait) {
+  html {
+    display: none;
+  }
+}
+```
+## **해당 화면이 나와도 당황하지 마세요 저희 사이트는 가로모드만 지원하도록 설계했습니다!**
+#### 우리가 흔히아는 피아노도 모두 가로이기때문이죠 
 
 # 시작화면 <a id="3">
 <img src="https://user-images.githubusercontent.com/79081800/120317626-d7f9c080-c319-11eb-8176-919b66a280c1.jpg">
@@ -44,22 +57,6 @@ $(window).on("load",function() {
   $(".loading_container").fadeOut("fast");
 });
 ```
-  
-#### 첫 화면 입장시 여러가지 처리를 거치는 과정에서 빈 화면 뜰 수 있습니다
-#### 초기 입장에 딜레이값을 주어 이미지 처리 완료 상태로 만들었습니다
-  
-# 이용시 주의 사항 <a id="9">
-<img src="https://user-images.githubusercontent.com/79081800/120762325-1a591280-c551-11eb-82bb-bf7c5f978c44.jpg">
-
-```css
-@media all and (orientation : Portrait) {
-  html {
-    display: none;
-  }
-}
-```
-### 해당 화면이 나와도 당황하지 마세요 저희 사이트는 가로모드만 지원하도록 설계했습니다!
-#### 우리가 흔히아는 피아노도 모두 가로이기때문이죠 
   
 # 선택화면 <a id="4">
 <img src="https://user-images.githubusercontent.com/79081800/120317629-d8925700-c319-11eb-850b-0875f5038e53.jpg">
