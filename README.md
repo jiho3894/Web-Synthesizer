@@ -27,10 +27,10 @@
 - Web app형태로 모바일에서도 편리하게 사용하도록 **미디어쿼리** 적용
 
 # 기술 스택
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Python Flask
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Python Flask**
   
 # 이용시 주의 사항 <a id="9">
 <img src="https://user-images.githubusercontent.com/79081800/120765296-07940d00-c554-11eb-9eea-e99c4653cb15.jpg" width="400px" height="400px">
