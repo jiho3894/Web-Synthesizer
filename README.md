@@ -118,5 +118,10 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=False)
 ```
   
-#### flask를 이용해 사이트 접근 206, 304번이 나오면 정상적으로 작동하고있다는 뜻
+#### flask를 이용해 사이트 접근 206, 304번이 나오면 정상적으로 작동하고있으니
+#### 걱정없이 사용하세요
+  
+### 기타 오류 발생시 아래 메일을 클릭하여
+### 문의 남겨주세요
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:snugyun01@gmail.com)](mailto:crsn1111@gmail.com)
 
