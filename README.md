@@ -86,6 +86,7 @@ $(window).on("load",function() {
 
 # 피아노 <a id="7">
 <img src="https://user-images.githubusercontent.com/79081800/120317640-da5c1a80-c319-11eb-817a-942d80471888.jpg">
+  
 ```javascript
  const C4 = new Audio("/sounds/C4.mp3"); // 피아노 오디오 소리 연결
  setTimeout(() => (clone.volume = 0.8), 400);
