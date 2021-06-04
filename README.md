@@ -11,7 +11,7 @@
   - 신디사이저나 건반에 관심이 있는 사람들을 위해 실제로 입문하기 이전에 도움을 주기 위함
 
 # 바로가기
-- 웹 페이지 https://jiho3894.github.io/Web-Synthesizer/
+- 웹 페이지 https://jiho3894.github.io/Web-Synthesizer/piano/
 - [개발 방향](#1)
 - [기술 스택](#2)
 - [시작화면](#3)
