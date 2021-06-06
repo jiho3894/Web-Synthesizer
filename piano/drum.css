@@ -317,7 +317,6 @@ button.drumO.active {
   }
 
   .container {
-    position: fixed;
     margin-top: 45px;
     width: 560px;
     height: 380px;
