@@ -327,6 +327,10 @@ button.drumO.active {
 }
 
 @media all and (max-width: 900px) {
+  .error {
+    font-size: 25px;
+  }
+  
   html {
     width: 700px;
     height: 300px;

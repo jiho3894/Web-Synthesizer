@@ -91,6 +91,10 @@ a:nth-child(2) {
 /* 모바일 전용 */
 
 @media all and (max-width: 900px) {
+  .error {
+    font-size: 25px;
+  }
+  
   .container_drum {
     display: flex;
     justify-content: center;
