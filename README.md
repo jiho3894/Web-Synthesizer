@@ -21,8 +21,8 @@
 - [피아노](#7)
 
 # 개발 방향
-- 사용자를 위한 신디사이저 **웹사이트 개설
-- Flask를 통해 신디사이저 **웹서버를 개설
+- 사용자를 위한 신디사이저 **웹사이트 개설**
+- Flask를 통해 신디사이저 **웹서버를 개설**
 - 피아노, 드럼 사운드를 수집 후 건반에 적용 **(터치 , 클릭)**
 - Web app형태로 모바일에서도 편리하게 사용하도록 **미디어쿼리** 적용
 
@@ -33,7 +33,8 @@
 - **Python Flask**
   
 # 이용시 주의 사항 <a id="9">
-<img src="https://user-images.githubusercontent.com/79081800/120765296-07940d00-c554-11eb-9eea-e99c4653cb15.jpg" width="400px" height="400px">
+<img src="https://user-images.githubusercontent.com/79081800/121024930-a2ece280-c7df-11eb-8af8-01699bf1ee10.jpg" width=400px heigth=400px>
+
 
 ```css
 @media all and (orientation : Portrait) {
