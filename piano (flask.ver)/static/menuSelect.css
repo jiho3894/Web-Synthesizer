@@ -6,6 +6,29 @@ body {
   background-size: cover;
 }
 
+.error {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: yellow;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-image: url(image/main_bg.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  z-index: 54;
+}
+
+.error span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -59,14 +82,16 @@ a:nth-child(2) {
 /* 모바일  경고창 */
 
 @media all and (orientation : Portrait) {
-  html {
-    display: none;
+  .error {
+    display: block;
   }
 }
 
-/* 모바일 전용 */
-
 @media all and (max-width: 900px) {
+  .error {
+    font-size: 25px;
+  }
+  
   .container_drum {
     display: flex;
     justify-content: center;
