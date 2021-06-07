@@ -7,14 +7,37 @@
   box-sizing: border-box;
 } 
 
+.error {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: yellow;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-image: url(image/main_bg.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  z-index: 54;
+}
+
+.error span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
   width: 100vw;
   background-size: cover;
   height: 100vh;
-  display: grid;
-  place-items: center;
   font-family: "Balsamiq Sans", cursive;
+  background-image: url(image/main_bg.jpg);
+  background-size: cover;
   color: var(--clr-neon);
 }
 
@@ -141,12 +164,16 @@ i {
 
 
 @media all and (orientation : Portrait) {
-  html {
-    display: none;
+  .error {
+    display: block;
   }
 }
 
 @media all and (max-width: 900px) {
+  .error {
+    font-size: 25px;
+  }
+
   .character_container span {
     font-size: 100px;
   }
