@@ -15,12 +15,12 @@ body {
 .error {
   position: fixed;
   display: none;
-  width: 500px;
-  height: 900px;
+  width: 600px;
+  height: 1200px;
   font-size: 30px;
   color: yellow;
   font-family: 'Noto Sans KR', sans-serif;
-  background-image: url(image/main_bg.jpg);
+  background-image: url(image/piano_bg.jpg);
   background-size: cover;
   justify-content: center;
   align-items: center;
