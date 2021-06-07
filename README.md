@@ -33,7 +33,7 @@
 - **Python Flask**
   
 # 이용시 주의 사항 <a id="9">
-<img src="https://user-images.githubusercontent.com/79081800/121024930-a2ece280-c7df-11eb-8af8-01699bf1ee10.jpg" width=400px heigth=400px>
+<img src="https://user-images.githubusercontent.com/79081800/121024930-a2ece280-c7df-11eb-8af8-01699bf1ee10.jpg">
 
 
 ```css
