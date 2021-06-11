@@ -30,8 +30,9 @@
 # 기술 스택
 - **HTML5**
 - **CSS3**
-- **JavaScript (ES6)**
+- **JavaScript(ES6)**
 - **Python Flask**
+- **IDE : VS Code**
   
 # 이용시 주의 사항 <a id="9">
 <img src="https://user-images.githubusercontent.com/79081800/121024930-a2ece280-c7df-11eb-8af8-01699bf1ee10.jpg">
@@ -44,7 +45,7 @@
   }
 }
 ```
-### **해당 화면이 나와도 당황하지 마세요 저희 사이트는 가로모드만 지원하도록 설계했습니다!**
+### 해당 화면이 나와도 당황하지 마세요 저희 사이트는 가로모드만 지원하도록 설계했습니다!
 #### 우리가 아는 모든 피아노는 가로입니다^^
 
 # 시작화면 <a id="3">
