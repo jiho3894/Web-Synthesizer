@@ -1,5 +1,9 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Web-Synthesizer&fontAlign=58&fontAlignY=30&color=gradient)
 
+> ## **2021년 6월 15일 업데이트 예정**
+-  모바일에서 피아노 사용시 버튼이 파란색으로 보이는 현상을 수정합니다
+-  모바일에서 드럼 사용시 작은 버튼을 포함한 드럼 전체 부분에 클릭이 가능하도록 수정합니다.
+
 # 웹앱 신디사이저
 **웹사이트를 통해** 피아노, 드럼의 여러 가지 소리를 만들어 간편하게 **키보드**로 연주할 수 있는 신디사이저
 
