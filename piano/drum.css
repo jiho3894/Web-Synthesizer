@@ -95,229 +95,317 @@ input:hover{
 }
 
 .box {
-  font-size: 25px;
-  font-weight: 600;
-  color: red;
+  font-size: 30px;
+  font-weight: 500;
+  color: aqua
 }
 
 button.drumA.active {
-  background-color: skyblue;
   animation: burr .1s infinite;
 }
 
 @keyframes burr {
   from {
-    left:423px;
+    left:348px;
   }
   to{
-    left:425px;
+    left:350px;
   }
 }
 
 .drum .drumA {
   position: absolute;
-  left: 425px;
-  top: 458px;
+  left: 350px;
+  top: 383px;
   border-radius: 100%;
   border: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
   cursor: pointer;
 }
 
+.drumA .wordA {
+  background-color: gold;
+  color: blue;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button.drumW.active {
-  background-color: skyblue;
   animation: burr2 .1s infinite;
 }
 
 @keyframes burr2 {
   from {
-    left:587px;
+    left:512px;
   }
   to{
-    left:589px;
+    left:514px;
   }
 }
 
 .drum .drumW {
   position: absolute;
-  left: 589px;
-  top: 204px;
+  left: 514px;
+  top: 128px;
   border-radius: 100%;
   border: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
   cursor: pointer;
 }
 
+.drumW .wordW {
+  background-color: gold;
+  color: blue;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button.drumS.active {
-  background-color: skyblue;
   animation: burr3 .1s infinite;
 }
 
 @keyframes burr3 {
   from {
-    left:661px;
+    left:586px;
   }
   to{
-    left:663px;
+    left:588px;
   }
 }
 
 .drum .drumS {
   position: absolute;
-  left: 663px;
-  top: 528px;
+  left: 588px;
+  top: 448px;
   border-radius: 100%;
   border: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
   cursor: pointer;
 }
 
+.drumS .wordS {
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button.drumE.active {
-  background-color: skyblue;
   animation: burr4 .1s infinite;
 }
 
 @keyframes burr4 {
   from {
-    left:788px;
+    left:718px;
   }
   to{
-    left:790px;
+    left:720px;
   }
 }
 
 .drum .drumE {
   position: absolute;
-  left: 790px;
-  top: 250px;
+  left: 720px;
+  top: 180px;
   border-radius: 100%;
   border: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
   cursor: pointer;
 }
 
+.drumE .wordE {
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button.drumF.active {
-  background-color: skyblue;
   animation: burr5 .1s infinite;
 }
 
 @keyframes burr5 {
   from {
-    left:928px;
+    left:854px;
   }
   to{
-    left:930px;
+    left:856px;
   }
 }
 
 .drum .drumF {
   position: absolute;
-  left: 930px;
-  top: 445px;
+  left: 856px;
+  top: 370px;
   border-radius: 100%;
   border: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
   cursor: pointer;
 }
 
-.drum .drumG {
-  position: absolute;
-  left: 933px;
-  top: 760px;
-  border-radius: 100%;
-  border: 0;
+.drumF .wordF {
+  background-color: black;
+  color: white;
   width: 50px;
   height: 50px;
-  background-color: aqua;
-  cursor: pointer;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button.drumU.active {
-  background-color: skyblue;
   animation: burr6 .1s infinite;
 }
 
 @keyframes burr6 {
   from {
-    left:1073px;
+    left:998px;
   }
   to{
-    left:1075px;
+    left:1000px;
   }
 }
 
 .drum .drumU {
   position: absolute;
-  left: 1075px;
-  top: 255px;
+  left: 1000px;
+  top: 180px;
   border-radius: 100%;
   border: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
   cursor: pointer;
 }
 
+.drumU .wordU {
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button.drumK.active {
-  background-color: skyblue;
   animation: burr7 .1s infinite;
 }
 
 @keyframes burr7 {
   from {
-    left:1233px;
+    left:1163px;
   }
   to{
-    left:1235px;
+    left:1165px;
   }
 }
 
 .drum .drumK {
   position: absolute;
-  left: 1235px;
-  top: 510px;
+  left: 1165px;
+  top: 440px;
   border-radius: 100%;
   border: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
   cursor: pointer;
 }
 
+.drumK .wordK {
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button.drumO.active {
-  background-color: skyblue;
   animation: burr8 .1s infinite;
 }
 
 @keyframes burr8 {
   from {
-    left:1353px;
+    left:1278px;
   }
   to{
-    left:1355px;
+    left:1280px;
   }
 }
 
 .drum .drumO {
   position: absolute;
-  left: 1355px;
-  top: 240px;
+  left: 1280px;
+  top: 165px;
   border-radius: 100%;
   border: 0;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+}
+
+.drumO .wordO {
+  background-color: gold;
+  color: blue;
   width: 50px;
   height: 50px;
-  background-color: aqua;
-  cursor: pointer;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media all and (orientation : Portrait) {
@@ -351,12 +439,18 @@ button.drumO.active {
 
   .box {
     font-size: 10px;
-    color: red;
+    font-weight: 600;
+    color: aqua
   }
 
   .drum .drumA {
     left: 154px;
     top: 140px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .drumA .wordA {
     width: 20px;
     height: 20px;
   }
@@ -377,6 +471,11 @@ button.drumO.active {
     height: 20px;
   }
 
+  .drumW .wordW {
+    width: 20px;
+    height: 20px;
+  }
+
   @keyframes burr2 {
     from {
       left:213px;
@@ -389,6 +488,11 @@ button.drumO.active {
   .drum .drumS {
     left: 241px;
     top: 165px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .drumS .wordS {
     width: 20px;
     height: 20px;
   }
@@ -409,6 +513,11 @@ button.drumO.active {
     height: 20px;
   }
 
+  .drumE .wordE {
+    width: 20px;
+    height: 20px;
+  }
+
   @keyframes burr4 {
     from {
       left:287px;
@@ -421,6 +530,11 @@ button.drumO.active {
   .drum .drumF {
     left: 340px;
     top: 135px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .drumF .wordF {
     width: 20px;
     height: 20px;
   }
@@ -440,6 +554,11 @@ button.drumO.active {
     width: 20px;
     height: 20px;
   }
+
+  .drumU .wordU {
+    width: 20px;
+    height: 20px;
+  }
   
   @keyframes burr6 {
     from {
@@ -456,6 +575,11 @@ button.drumO.active {
       height: 20px;
   }
 
+  .drumK .wordK {
+    width: 20px;
+    height: 20px;
+  }
+
   @keyframes burr7 {
       from {
         left:449px;
@@ -468,6 +592,11 @@ button.drumO.active {
   .drum .drumO {
     left: 493px;
     top: 60px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .drumO .wordO {
     width: 20px;
     height: 20px;
   }

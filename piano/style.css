@@ -41,36 +41,32 @@ body {
   color: var(--clr-neon);
 }
 
-.loading_container {
+.wrapper { 
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  background-image: url(image/main_bg.jpg);
-  background-size: cover;
+  position: absolute;
   display: flex;
-  align-items: center;
   justify-content: center;
-  z-index: 1;
+  align-items: center;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  animation: rainbow 7s ease infinite;
+  z-index: 5;
+  font-size: 80px;
 }
 
-i {
-  font-size: 70px;
-  color: blue;
-  border-radius: 100%;
-  border-top-color: transparent;
-  animation: loader 3s linear infinite;
-}
+@keyframes rainbow { 
+    0%{
+      background-position:0% 82%;
+    }
 
-@keyframes loader{
-  25% {
-      color: rgb(255, 0, 0);
-  }
-  50% {
-      color: rgb(0, 255, 0);
-  }
-  
-  75% {
-    color: white;
-  }
+    50%{
+      background-position:100% 19%;
+    }
+
+    100%{
+      background-position:0% 82%;
+    }
 }
 
 .character_container {
@@ -89,7 +85,7 @@ i {
 .character_container span {
   font-size: 200px;
   color: white;
-  animation: title 10s linear;
+  animation: title 5s linear;
   animation-iteration-count: 1;
   font-family: 'Niconne', cursive;
   font-weight: 500;
