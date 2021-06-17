@@ -54,7 +54,7 @@
 #### 우리가 아는 모든 피아노는 가로입니다^^
 
 # 시작화면 <a id="3">
-<img src="https://user-images.githubusercontent.com/79081800/120317626-d7f9c080-c319-11eb-8176-919b66a280c1.jpg">
+<img src="https://user-images.githubusercontent.com/79081800/122355891-3dda7f00-cf8d-11eb-84e1-9bf412589308.gif">
   
 ```javascript
 $(window).on("load",function() {
