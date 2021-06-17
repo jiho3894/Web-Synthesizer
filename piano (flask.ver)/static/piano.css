@@ -86,6 +86,7 @@ input:hover{
   margin-left: -5px;
   outline: none;
   cursor: pointer;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
 .white-key.active {
@@ -110,6 +111,7 @@ input:hover{
   border-radius: 0 0 5px 5px;
   outline: none;
   cursor: pointer;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
 .black-key.active {
