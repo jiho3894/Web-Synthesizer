@@ -1,5 +1,7 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Web-Synthesizer&fontAlign=58&fontAlignY=30&color=gradient)
 
+
+
 > ## **2021년 6월 17일 업데이트 완료**
 -  모바일에서 피아노 사용 시 버튼이 파란색으로 보이는 현상을 수정합니다.
 -  PC에서 드럼 사용 시 작은 버튼을 포함한 드럼 전체 부분에 클릭이 가능하도록 수정합니다.
